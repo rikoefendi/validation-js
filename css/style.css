@@ -1,0 +1,29 @@
+body{
+	background-color: #e9ebee;
+}
+p{
+	margin: 10px 0;
+}
+.no-padding{
+	padding: 0 !important;
+}
+.no-float{
+	float: none !important;
+}
+input.form-control{
+	background-color: rgba(0,0,0,0.01);
+}
+input.form-control:focus,
+input.form-control:visited{
+	background-color: #fff;
+}
+input.novalidate,
+input.novalidate:focus{
+	background-color: #fff;
+	border: 2px solid #f05c54;
+}
+input.complete,
+input.complete:focus{
+	background-color: #fff;
+	border: 2px solid #39cccc;
+}
